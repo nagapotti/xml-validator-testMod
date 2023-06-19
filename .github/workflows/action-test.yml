@@ -2,7 +2,8 @@
 name: Action test
 
 on:
- - push
+  push:
+  workflow_dispatch:
 
 jobs:
   success-Test:
